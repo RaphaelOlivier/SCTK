@@ -50,7 +50,7 @@ void print_linear(NODE *node, void *p);
 NETWORK *perform_mfalign_v1(WTOKE_STR1 **ctms, int nctm, int *sil_end, int time_align, double null_conf);
 void set_tag1(ARC *arc, void *p);
 
-#define MAX_HYPS 50
+#define MAX_HYPS 5000
 extern int mfdb;
 extern int glob_ties;
 
